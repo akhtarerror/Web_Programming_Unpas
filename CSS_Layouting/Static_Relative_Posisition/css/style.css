@@ -1,0 +1,21 @@
+.kotak {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+}
+
+.satu {
+  background-color: rebeccapurple;
+}
+
+.dua {
+  background-color: salmon;
+  position: relative;
+  bottom: 20px;
+  left: 50px;
+}
+
+.tiga {
+  background-color: springgreen;
+}

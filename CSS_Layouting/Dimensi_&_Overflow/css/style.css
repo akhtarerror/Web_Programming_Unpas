@@ -1,0 +1,6 @@
+div {
+    width: 50%;
+    height: 100px;
+    background-color: aqua;
+    overflow: auto;
+}

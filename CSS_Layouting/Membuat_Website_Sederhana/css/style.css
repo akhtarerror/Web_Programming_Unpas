@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #cacaca;
+  color: #333;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #fff;
+}
+
+header {
+  padding: 10px;
+}
+
+header h1 {
+  font-weight: bold;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 20px 10px 0 0;
+}
+
+header a {
+  text-decoration: none;
+  color: darkblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+header a:hover {
+  background-color: skyblue;
+  color: #fff;
+}
+
+.hero {
+  height: 280px;
+  background-image: url(../img/processor.jpg);
+  background-size: cover;
+  background-position: 0 -280px;
+  border-bottom: 5px solid skyblue;
+  border-top: 5px solid darkblue;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.content .penulis {
+  font-size: 0.7rem;
+  margin: -5px 0 0 0;
+}
+
+.penulis a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.penulis a:hover {
+  color: skyblue;
+}
+
+.content p {
+  margin: 0 0 20px 0;
+  font-size: 0.9rem;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+}
+
+footer .copy {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.copy a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copy a:hover {
+  color: #cacaca;
+}

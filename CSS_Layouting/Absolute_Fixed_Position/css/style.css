@@ -1,0 +1,59 @@
+/* Relative */
+/* .container {
+  width: 800px;
+  margin: auto;
+  border: 5px solid red;
+  position: relative;
+}
+
+.kotak {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.satu {
+  background-color: rebeccapurple;
+}
+
+.dua {
+  background-color: salmon;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.tiga {
+  background-color: springgreen;
+} */
+
+.container {
+  width: 800px;
+  height: 2000px;
+  margin: auto;
+  border: 5px solid red;
+  position: relative;
+}
+
+.kotak {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.satu {
+  background-color: rebeccapurple;
+}
+
+.dua {
+  width: 100%;
+  height: 50px;
+  background-color: salmon;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.tiga {
+  background-color: springgreen;
+}
